@@ -1,0 +1,12 @@
+# Copernicus updater temporary outputs; never commit credentials or downloaded data
+data/copernicus/
+logs/
+*.nc
+*.nc4
+*.netcdf
+*.h5
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
